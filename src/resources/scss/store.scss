@@ -1,0 +1,82 @@
+.slider-store {
+    background-image: url(/img/banner-store.jpg);
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.store h2 {
+  font-size: 36px;
+  padding: 48px 0;
+  color: #333;
+}
+
+// show
+.detail {
+  padding: 100px 0;
+}
+
+.detail img {
+  width: 90%;
+  height: auto;
+}
+
+.detail_info p {
+  font-size: 15px;
+  color: #666;
+  font-weight: 500;
+  margin-top: 4px;
+}
+
+.detail_info p a {
+  text-decoration: none;
+  color: #666;
+}
+
+.detail_info h2 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #333;
+  padding: 28px 0;
+}
+
+.detail_info h3 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 16px;
+}
+
+.detail span {
+  font-size: 17px;
+  line-height: 26px;
+  color: #555;
+}
+
+.detail_line {
+  width: 100%;
+  height: 1px;
+  background-color: rgb(204, 204, 204);
+  margin-top: 12px;
+}
+
+.detail h5 {
+  font-size: 16px;
+  color: #444;
+  margin: 12px 0;
+}
+
+.detail h4 {
+  font-size: 26px;
+  color: #111;
+  font-weight: 500;
+  margin: 48px 0;
+}
+
+
+

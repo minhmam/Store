@@ -1,0 +1,114 @@
+<div class="slider-home">
+    <div class="grid wide">
+        <div class="row">
+            <div class="slider__content">
+                <div class="l-6 c-6 m-12">
+                    <span>Best Quality Plants</span>
+                    <h3 class="slider__title">Amazing Variety Of Plants Starting Just $6</h3>
+                    <a class="btn btn-hover" href="/store">SHOP NOW</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="grid wide">
+    <div class="row">
+        <div class="col l-4 c-12 m-12">
+            <div class="home__information">
+                <i class="fas fa-spa"></i>
+                <div class="information__content">
+                    <h4>Plants Collection</h4>
+                    <span>Any plants for your space</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l-4 c-12 m-12">
+            <div class="home__information">
+                <i class="fas fa-box"></i>
+                <div class="information__content">
+                    <h4>Free Shipping</h4>
+                    <span>Free shipping on order</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col l-4 c-12 m-12">
+            <div class="home__information">
+                <i class="fas fa-history"></i>
+                <div class="information__content">
+                    <h4>100% Money Back</h4>
+                    <span>If the item didn't suit you</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="grid wide">
+    <div class="row">
+        <!-- title -->
+        <div class="l-12 m-12 c-12">
+            <div class="featured__plants">
+                <h3 class="home__title">Featured Plants</h3>
+                <span class="home__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <!-- Card -->
+        {{#each product}}
+        {{#if true}}
+        <div class="col l-3 m-4 c-6">
+            <div class="card">
+                <a href="/store/{{this.slug}}"><img src="img/{{this.image}}.jpg" alt=""></a>
+                <div class="card__content">
+                    <div class="card__category">{{this.category}}</div>
+                    <a href="">
+                        <h3 class="card__name">{{this.name}}</h3>
+                    </a>
+                    <div class="card__start">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="card__price">{{this.price}}</div>
+                </div>
+                {{#if false}}<div class="card__sale">Sale!</div>{{/if}}
+            </div>
+        </div>
+        {{/if}}
+        {{/each}}
+
+    </div>
+</div>
+<div class="home-help">
+    <div class="grid wide">
+        <div class="row">
+            <div class="col l-4 m-4 c-12">
+                <h3>Need help in choosing the right plants?</h3>
+                <a href=""><i class="fas fa-phone-alt"></i> ASK FOR HELP</a>
+            </div>
+            <div class="col l-8 m-8 c-12">
+                <span>Commodo sociosqu venenatis cras dolor sagittis integer luctus sem primis eget maecenas sedurna
+                    malesuada consectetuer</br></span>
+                <p>Ornare integer commodo mauris et ligula purus, praesent cubilia laboriosam viverra. Mattis id
+                    rhoncus. Integer lacus eu volutpat fusce. Elit etiam phasellus suscipit suscipit dapibus,
+                    condimentum tempor quis, turpis luctus dolor sapien vivamus.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="home__footer">
+    <div class="home__footer-content">
+        <h2>Interested? Shop This Plant Collection!</h2>
+        <p>Neque porro quisquam est, qui dolore ipsum quia dolor sit amet, consectetur adipisci velit,
+            sed quia non numquam eius modi tempora incidunt.</p>
+        <a href="/store" class="btn btn-hover">GO TO SHOP</a>
+    </div>
+</div>

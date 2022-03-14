@@ -1,0 +1,18 @@
+<div class="my__account">
+    <div class="login-page">
+        <div class="form">
+            <form class="login-form" onsubmit="{handleLogin}">
+                <input type="text" placeholder="username"/>
+                <input type="password" placeholder="password"/>
+                <button class="btn btn-hover" href="">LOGIN</button>
+                <p class="message">Not registered? <a href="/account/register">Create an account</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    import {loginUser} from "./apiRequest";
+    $('.message a').click(function () {
+        $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+</script>

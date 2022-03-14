@@ -1,0 +1,42 @@
+<div class="detail">
+    <div class="grid wide">
+        <!-- Title -->
+        <div class="row">
+            <div class="l-12 m-12 c-12">
+                <div class="detail_info">
+                    <p><a href="">Home</a> / <a href="">Cactus</a></p>
+                    <h2 class="detail_name">Cactus</h2>
+                    <p>Showing all 6 results</p>
+                </div>
+            </div>
+        </div>
+        <!-- Product -->
+        <div class="row">
+            {{#each arrProduct}}
+            {{#if true}}
+            <div class="col l-3 m-4 c-6">
+                <div class="card">
+                    <a href="/store/{{this.slug}}"><img src="/img/{{this.image}}.jpg" alt=""></a>
+                    <div class="card__content">
+                        <div class="card__category">{{this.category}}</div>
+                        <a href="">
+                            <h3 class="card__name">{{this.name}}</h3>
+                        </a>
+                        <div class="card__start">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="card__price">{{this.price}}</div>
+                    </div>
+                    {{#if false}}<div class="card__sale">Sale!</div>{{/if}}
+                </div>
+            </div>
+            {{/if}}
+            {{/each}}
+        </div>
+
+    </div>
+</div>

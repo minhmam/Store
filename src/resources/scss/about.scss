@@ -1,0 +1,117 @@
+.slider-about {
+    background-image: url(/img/banner-about.jpg);
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.description__about__us {
+  padding: 64px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.description__about__us h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+}
+
+.description__about__us p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #555;
+}
+
+
+.our__company {
+  padding: 64px 0;
+}
+
+.our__company .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our__company h2 {
+  font-size: 36px;
+  padding: 48px 0;
+  color: #333;
+}
+
+.our__company p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #555;
+}
+
+.our__company img {
+  width: 100%;
+  border-radius: 20px;
+  padding: 36px 0;
+}
+
+.our__team {
+  padding: 64px 0;
+}
+
+.our__team .col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our__team h2 {
+  font-size: 36px;
+  padding: 48px 0;
+  color: #333;
+}
+
+.our__team p {
+  font-size: 17px;
+  line-height: 26px;
+  color: #555;
+}
+
+.our__team img {
+  width: 80%;
+}
+
+.our__team h3 {
+  font-size: 20px;
+  padding-top: 24px;
+  color: #111;
+}
+
+.our__team span {
+  padding-top: 4px;
+  padding-bottom: 24px;
+  color: #555;
+}
+
+.our__team a {
+  color: #111;
+}
+
+.our__team i {
+  font-size: 24px;
+  padding: 24px 8px;
+}
+
+.line {
+  width: 40px;
+  height: 2px;
+  background-color: #fc5f5f;
+}
+
+.our__team i:hover {
+  color: #fc5f5f;
+}
+

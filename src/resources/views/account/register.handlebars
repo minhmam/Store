@@ -1,0 +1,19 @@
+<div class="my__account">
+    <div class="login-page">
+        <div class="form">
+            <form class="register-form">
+                <input type="text" placeholder="name" />
+                <input type="password" placeholder="password" />
+                <input type="text" placeholder="email address" />
+                <button class="btn btn-hover" href="">CREATE</button>
+                <p class="message">Already registered? <a href="/account/login">Sign In</a></p>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('.message a').click(function () {
+        $('form').animate({ height: "toggle", opacity: "toggle" }, "slow");
+    });
+</script>

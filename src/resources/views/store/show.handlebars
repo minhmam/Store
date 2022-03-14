@@ -1,0 +1,54 @@
+<div class="detail">
+    <div class="grid wide">
+        <!-- Product -->
+        <div class="row">
+            <div class="l-6 m-6 c-12">
+                <img src="/img/{{product.image}}.jpg" alt="">
+            </div>
+            <div class="l-6 m-6 c-12">
+                <div class="detail_info">
+                    <p><a href="/">Home</a> / <a href="/store/{{product.category}}">{{product.category}}</a> / {{product.name}}</p>
+                    <h2 class="detail_name">{{product.name}}</h2>
+                    <h3>{{product.price}}</h3>
+                    <span>{{product.description}}</span>
+                        <div class="detail_line"></div>
+                    <p>Category: <a href="/store/{{product.category}}">{{product.category}}</a></p>
+                </div>
+            </div>
+        </div>
+        <!-- Description -->
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="detail_line"></div>
+                <h5>Description</h5>
+                <span>{{product.description}}</span>
+            </div>
+        </div>
+        <!-- Related products -->
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <h4>Related products</h4>
+            </div>
+        </div>
+        <div class="col l-3 m-4 c-6">
+            <div class="card">
+                <a href="/store/{{this.slug}}"><img src="/img/plant3.jpg" alt=""></a>
+                <div class="card__content">
+                    <div class="card__category">Plants</div>
+                    <a href="">
+                        <h3 class="card__name">Boncellensis Secullant</h3>
+                    </a>
+                    <div class="card__start">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="card__price">$34.00</div>
+                </div>
+                {{#if false}}<div class="card__sale">Sale!</div>{{/if}}
+            </div>
+        </div>
+    </div>
+</div>

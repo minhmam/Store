@@ -1,0 +1,92 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.header {
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav li {
+    position: relative;
+} 
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 0 16px;
+}
+
+li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #222;
+}
+
+.nav .sub-nav {
+    position: absolute;
+    top: 45px;
+    right: -88px;
+    background-color: #fff;
+    padding: 0;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: none;
+    z-index: 100;
+}
+
+.nav .sub-nav::before {
+    content: "";
+    position: absolute;
+    font-weight: bold;
+    top: -26px;
+    height: 26px;
+    width: 86px;
+}
+
+.nav .cart-icon i {
+    font-size: 26px;
+    color: #fc5f5f;
+}
+
+.cart-icon a {
+    position: relative;
+}
+
+.cart-icon a .cart-quantity {
+    position: absolute;
+    line-height: 24px;
+    top: -14px;
+    right: -14px;
+    border-radius: 50%;
+    padding: 0 6px;
+    background-color: #fc5f5f;
+    color: #fff;
+    /* color: #fc5f5f; */
+    
+}
+
+.nav .sub-nav li {
+    padding: 12px 100px 12px 12px;
+}
+
+.header li a:hover {
+    color: #fc5f5f;
+}
+
+.nav li:hover .sub-nav {
+    display: block;
+}

@@ -1,0 +1,89 @@
+<div class="slider-store">
+    <div class="grid wide">
+        <div class="row">
+            <div class="slider__content">
+                <div class="l-6 c-6 m-12">
+                    <h2>Store</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="store">
+    <div class="grid wide">
+        <div class="row">
+            <div class="col c-12 m-12 l-12">
+                <h2>Featured Plants</h2>
+            </div>
+
+            <div class="col l-3 m-4 c-6">
+                <div class="card">
+                    <a href=""><img src="img/plant3.jpg" alt=""></a>
+                    <div class="card__content">
+                        <div class="card__category">Plants</div>
+                        <a href="">
+                            <h3 class="card__name">Boncellensis Secullant</h3>
+                        </a>
+                        <div class="card__start">
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                        <div class="card__price">$34.00</div>
+                    </div>
+                    <div class="card__sale">Sale!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col c-12 m-12 l-12">
+                <h2>Our Plants Collection</h2>
+            </div>
+
+        {{#each product}}
+        <div class="col l-3 m-4 c-6">
+            <div class="card">
+                <a href="/store/{{this.slug}}"><img src="img/{{this.image}}.jpg" alt=""></a>
+                <div class="card__content">
+                    <div class="card__category">{{this.category}}</div>
+                    <a href="">
+                        <h3 class="card__name">{{this.name}}</h3>
+                    </a>
+                    <div class="card__start">
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="card__price">{{this.price}}</div>
+                </div>
+                {{#if false}}<div class="card__sale">Sale!</div>{{/if}}
+            </div>
+        </div>
+        {{/each}}
+        </div>
+    </div>
+</div>
+{{!-- Help --}}
+<div class="home-help">
+    <div class="grid wide">
+        <div class="row">
+            <div class="col l-4 m-4 c-12">
+                <h3>Need help in choosing the right plants?</h3>
+                <a href=""><i class="fas fa-phone-alt"></i> ASK FOR HELP</a>
+            </div>
+            <div class="col l-8 m-8 c-12">
+                <span>Commodo sociosqu venenatis cras dolor sagittis integer luctus sem primis eget maecenas sedurna
+                    malesuada consectetuer</br></span>
+                <p>Ornare integer commodo mauris et ligula purus, praesent cubilia laboriosam viverra. Mattis id
+                    rhoncus. Integer lacus eu volutpat fusce. Elit etiam phasellus suscipit suscipit dapibus,
+                    condimentum tempor quis, turpis luctus dolor sapien vivamus.</p>
+            </div>
+        </div>
+    </div>
+</div>

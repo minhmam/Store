@@ -1,0 +1,201 @@
+.slider-home {
+    background-image: url(/img/banner-home.jpg);
+    height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+}
+
+.slider__content h2 {
+    font-size: 80px;
+    font-weight: 600;
+    color: #444;
+}
+
+.slider__content span {
+    padding: 12px 0;
+    font-weight: 600;
+    color: #555;
+}
+
+.slider__content .slider__title{
+    padding: 24px 0;
+    font-size: 60px;
+    font-weight: 500;
+    color: #333;
+}
+
+.featured__plants {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 55px;
+}
+
+.featured__plants .home__title {
+    font-size: 36px;
+    color: #333;
+}
+
+.featured__plants .home__description {
+    font-size: 16px;
+    padding: 12px;
+    color: #666;
+}
+
+
+
+.home__information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px 0;
+}
+
+.home__information i {
+    padding: 24px;
+    font-size: 28px;
+    color: #75c32c;
+}
+
+.information__content h4 {
+    font-size: 18px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 6px;
+}
+
+.information__content span {
+    font-size: 16px;
+    color: #444;
+}
+
+
+
+
+
+.card {
+    position: relative;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card__content {
+    padding: 12px 0;
+}
+
+.card__category {
+    font-size: 14px;
+    color: #666;
+    padding: 4px 0px;
+}
+
+.card__content a {
+    text-decoration: none;
+}
+
+.card__name {
+    color: #333;
+    font-size: 18px;
+    padding: 4px 0;
+}
+
+.card__start {
+    font-size: 12px;
+    padding: 4px 0;
+}
+
+.card__price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #444;
+}
+
+.card__sale {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #fc5f5f;
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -12px;
+    right: -12px;
+}
+
+.home-help {
+    padding: 64px 0;
+}
+
+.home-help h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    padding-bottom: 24px;
+
+}
+
+.home-help a {
+    text-decoration: none;
+    color: #fc5f5f;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.home-help i {
+    padding: 0 6px;
+}
+
+.home-help span {
+    padding: 24px 0;
+}
+
+.home-help p {
+    padding: 24px 0;
+}
+
+.home__footer {
+    background-image: url(/img/home-footer.jpg);
+    height: 900px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-radius: 0px 0px 50px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home__footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.home__footer-content h2 {
+    font-size: 48px;
+    font-weight: 600;
+    color: #444;
+}
+
+.home__footer-content p {
+    font-size: 16px;
+    color: #444;
+    padding: 24px 0;
+}
