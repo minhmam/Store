@@ -25,14 +25,14 @@
     "express-handlebars": "^6.0.2",
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^6.2.3",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
     "redux": "^4.1.2"
   },
   "devDependencies": {
     "husky": "^7.0.4",
     "lint-staged": "^12.3.4",
-    "morgan": "^1.10.0",
-    "node-sass": "^7.0.1",
-    "prettier": "^2.5.1"
+    "node-sass": "^7.0.1"
   }
 }
