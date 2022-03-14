@@ -6,7 +6,7 @@ const Handlebars = require('handlebars')
 const cors = require('cors');
 const dotenv = require('dotenv')
 const app = express();
-// const port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 const route = require('./routes');
 const db = require('./config/db');
@@ -42,6 +42,6 @@ app.get('/products/:id', cors(), function (req, res, next) {
   res.json({msg: 'This is CORS-enabled for a Single Route'})
 })
 
-app.listen(process.env.PORT || 3000, () => {
+app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`)
 });
